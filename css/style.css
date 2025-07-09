@@ -43,8 +43,8 @@ nav_btns {
 }
 
 .g_t {
-  background: -webkit-gradient(linear, left top, right top, from(#CB6D9C), to(#E7AA19));
-  background: linear-gradient(to right, #CB6D9C, #E7AA19);
+  background: -webkit-gradient(linear, left top, right top, from(#FFBE82), to(#E7AA19));
+  background: linear-gradient(to right, #FFBE82, #E7AA19);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -118,12 +118,131 @@ li {
   width: 200px;
   height: 45px;
   border: 1px solid #FFB017;
-  background: -webkit-gradient(linear, left top, right top, from(#CB6D9C), to(#E7AA19));
-  background: linear-gradient(to right, #CB6D9C, #E7AA19);
+  background: -webkit-gradient(linear, left top, right top, from(#E4864F), color-stop(#E7AA19), to(#DC6B30));
+  background: linear-gradient(to right, #E4864F, #E7AA19, #DC6B30);
   border-radius: 10px;
   color: black;
   font-size: 14px;
   font-weight: 800;
   margin-left: 13%;
   margin-top: 1%;
+}
+
+.btn_1 {
+  width: 200px;
+  height: 45px;
+  border: 1px solid #FFB017;
+  background: -webkit-gradient(linear, left top, right top, from(#FFBE82), color-stop(#E7AA19), to(#DC6B30));
+  background: linear-gradient(to right, #FFBE82, #E7AA19, #DC6B30);
+  border-radius: 10px;
+  color: black;
+  font-size: 14px;
+  font-weight: 800;
+  margin-left: 4%;
+  margin-top: 1%;
+}
+
+.second_title {
+  font-size: 59px;
+  text-align: center;
+  margin-top: 10%;
+  font-family: "Roboto", sans-serif;
+}
+.second_subtitle {
+  text-align: center;
+  opacity: 0.7;
+  font-family: "Roboto", sans-serif;
+  margin-top: 1%;
+}
+.second_gallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 120px;
+  margin-top: 4%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.second_img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: -5.5%;
+  margin-left: -3%;
+}
+.second_val {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 215px;
+  margin-top: 2%;
+}
+.second_prc1 {
+  color: #4BD879;
+  font-family: "Roboto", sans-serif;
+}
+.second_cena {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 142px;
+}
+.second_oval {
+  margin-top: 0.5%;
+  width: 120px;
+  height: 30px;
+  background-color: #262626;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+  border-radius: 17px;
+}
+.second_last_text {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  margin-top: 4%;
+  opacity: 0.8;
+}
+
+.btn_2 {
+  width: 220px;
+  height: 49px;
+  border: 1px solid #FFB017;
+  background: -webkit-gradient(linear, left top, right top, from(#FFBE82), color-stop(#E7AA19), to(#DC6B30));
+  background: linear-gradient(to right, #FFBE82, #E7AA19, #DC6B30);
+  border-radius: 10px;
+  color: black;
+  font-size: 14px;
+  font-weight: 800;
+  margin-left: 44.5%;
+  margin-top: 1.5%;
+}
+
+.yandex {
+  margin-left: 165%;
+  margin-top: 4%;
+}
+
+.tesla {
+  margin-left: 170px;
+  margin-top: 4%;
+}
+
+.apple {
+  margin-left: 185px;
+}
+
+.amazon {
+  margin-left: -90px;
 }
