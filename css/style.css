@@ -246,3 +246,100 @@ li {
 .amazon {
   margin-left: -90px;
 }
+
+.page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.page_h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 60px;
+  margin-top: 4%;
+}
+.page_table {
+  width: 1300px;
+  margin-top: 5%;
+}
+
+.chupep {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 50px;
+}
+
+.invest {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 10%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.invest_title {
+  font-size: 70px;
+  font-family: "Roboto", sans-serif;
+  margin-left: 25%;
+}
+.invest_subtitle {
+  font-size: 20px;
+  margin-left: 25%;
+  font-family: "Roboto", sans-serif;
+  opacity: 0.7;
+}
+.invest_img {
+  width: 1000px;
+}
+
+.about_h1 {
+  text-align: center;
+  margin-top: 8%;
+  font-size: 80px;
+  font-family: "Roboto", sans-serif;
+}
+
+.s {
+  opacity: 0.7;
+  margin-top: 20%;
+  text-align: center;
+}
+
+.cards {
+  margin-top: 3%;
+  width: 250px;
+  height: 320px;
+  background-color: #1B1B1C;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.sex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 60px;
+}
+
+.textd {
+  text-align: center;
+  margin-top: 4%;
+}

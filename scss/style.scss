@@ -210,3 +210,79 @@ margin-top: 1%;
   margin-left: -90px;
 }
 //
+
+
+.page{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:column;
+  &_h2{
+    font-family: $f;
+    font-size: 60px;
+    margin-top: 4%;
+  }
+  &_table{
+width: 1300px;
+margin-top: 5%;
+  }
+}
+
+.chupep{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.invest {
+display: flex;
+margin-top: 10%;
+justify-content: center;
+&_title {
+  font-size: 70px;
+  font-family: $f;
+  margin-left: 25%;
+}
+&_subtitle {
+  font-size: 20px;
+  margin-left: 25%;
+
+  font-family: $f;
+  opacity: 0.7;
+}
+&_img{
+  width: 1000px;
+}
+}
+
+
+.about{
+  &_h1{
+    text-align: center;
+    margin-top: 8%;
+    font-size: 80px;
+    font-family: $f;
+  }
+}
+.s{
+  opacity: 0.7;
+  margin-top: 20%;
+  text-align: center;
+}
+.cards{
+  margin-top: 3%;
+  width: 250px;
+  height: 320px;
+  background-color: #1B1B1C;
+  padding: 20px;
+  border-radius: 10px;
+}
+.sex{
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  
+}
+.textd{
+  text-align: center;
+  margin-top: 4%;
+}
